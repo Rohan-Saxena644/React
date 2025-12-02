@@ -3,3 +3,4 @@ function Title(){
 }
 
 //export
+export  {Title};
