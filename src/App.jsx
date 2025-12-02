@@ -8,12 +8,12 @@ function Description(){
 
 function App() {
   return (                 //<button>Hello World</button>
-    <div>
+    <>
       <h1>This is my app component</h1>
       <p>Inside app component we have the title component used</p>
       <Title/>
       <Description/>
-    </div>
+    </>
   );
 }
 
