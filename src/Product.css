@@ -4,3 +4,9 @@
     margin-bottom: 10px;
     padding: 0 10px 0 10px;
 }
+
+.Product ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
