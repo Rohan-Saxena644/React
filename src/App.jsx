@@ -4,6 +4,7 @@ import {Title} from "./Title.jsx";
 import Product from "./Product.jsx";
 import ProductTab from "./ProductTab.jsx";
 import Msg from "./MsgBox.jsx";
+import Button from "./Button.jsx";
 
 function Description(){
   return <h3>I am the description</h3>
@@ -12,9 +13,10 @@ function Description(){
 function App() {
   return (   
     <>
-    <ProductTab/>
+    {/* <ProductTab/>
     <Msg name="RO" clr="blue"/>
-    <Msg name="Ra" clr="yellow"/>
+    <Msg name="Ra" clr="yellow"/> */}
+    <Button/>
     </>              
   );
 }

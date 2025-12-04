@@ -8,7 +8,7 @@ function Product({title , price , features}){
         <div className="Product" style={styles}>
             <h3>{title}</h3>
             <h5>Price : {price}</h5>
-            <ul>{features.map((feature) => <li>{feature}</li>)}</ul>
+            <ul>{features.map((feature,index) => <li key={index}>{feature}</li>)}</ul>
             {isDiscount && <p>Discount of 5%</p>}
             {/* <ul>{features}</ul> */}
             {/* <p>{features2?.a}</p>  */}
